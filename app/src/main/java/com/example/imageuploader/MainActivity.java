@@ -129,8 +129,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * --------------------------------------------------------------------------
-     * Function to handle image upload to cloud storage
-     * It will be triggered continuously until all the images will be uploaded
+     * Function to handle multiple images upload on the server
      */
     private void uploadImage() {
         if (imagesUri == null || imagesUri.isEmpty()) return;
