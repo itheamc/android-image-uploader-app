@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Outside for loop
             Request request = new Request.Builder()
-                    .url("https://uploadimages.amcbizprojects.co.in/uploads")
+                    .url("___Your___URL___")
                     .header("Content-Type", "application/x-www-form-urlencoded")
                     .post(requestBody)
                     .build();
@@ -238,7 +238,7 @@ public class MainActivity extends AppCompatActivity {
                 MultipartBody.Builder builder = new MultipartBody.Builder();
 
                 Request request = new Request.Builder()
-                        .url("https://uploadimages.amcbizprojects.co.in/uploads")
+                        .url("___Your___URL___")
                         .header("Content-Type", "application/x-www-form-urlencoded")
                         .post(requestBody)
                         .build();
